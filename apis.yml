@@ -1,0 +1,79 @@
+aid: defer-run
+name: Defer
+description: >-
+  Defer was a Paris-based, Y Combinator-backed (W23) zero-infrastructure
+  background jobs platform for Node.js and TypeScript developers, founded
+  in 2022 by Bryan Frimin and Charly Poly. The product converted regular
+  JavaScript/TypeScript async functions into managed background jobs with
+  configurable retries, throttling, concurrency controls, scheduled crons,
+  multi-environment support, alerting, and a hosted dashboard — removing
+  the need for developers to operate their own queues, workers, and
+  Redis-style infrastructure. Defer shipped client SDKs and framework
+  integrations (Next.js, RedwoodJS) and a CLI/build pipeline that uploaded
+  function bundles to the Defer cloud for execution. The company appears
+  to have wound down its hosted service in 2024 — the defer.run domain
+  now 301-redirects to digger.tools, no end-of-service post-mortem is
+  publicly linked from the homepage, and the GitHub organization
+  (github.com/defer-run) last saw meaningful activity in July 2024 with
+  the final defer.client release v2.3.0 cut on 2024-03-06. The open
+  source client libraries remain available but are effectively unmaintained
+  and the hosted backend they depended on is no longer operational. This
+  catalog entry preserves the historical footprint of Defer as part of the
+  2022-2024 wave of "zero-infrastructure" background-job and durable-
+  execution startups (Inngest, Trigger.dev, Hatchet, Temporal Cloud,
+  Restate) so the design pattern and the players who pursued it remain
+  discoverable in the API Evangelist network.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Background Jobs
+  - Asynchronous Processing
+  - Job Queues
+  - Serverless
+  - Node.js
+  - TypeScript
+  - Workflow Orchestration
+  - Cron
+  - Durable Execution
+  - Developer Tools
+  - Defunct
+  - Y Combinator
+url: https://raw.githubusercontent.com/api-evangelist/defer-run/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.defer.run
+  - type: Documentation
+    url: https://docs.defer.run
+  - type: GitHub
+    url: https://github.com/defer-run
+  - type: ClientSDK
+    url: https://github.com/defer-run/defer.client
+  - type: NextJSIntegration
+    url: https://github.com/defer-run/nextjs
+  - type: RedwoodJSIntegration
+    url: https://github.com/defer-run/defer-redwoodjs
+  - type: DemoApp
+    url: https://github.com/defer-run/defer.demo
+  - type: YCombinator
+    url: https://www.ycombinator.com/companies/defer
+  - type: YCombinatorLaunch
+    url: https://www.ycombinator.com/launches/I2Y-defer-a-zero-infrastructure-platform-for-node-js-background-jobs
+  - type: LaunchHN
+    url: https://news.ycombinator.com/item?id=35096366
+  - type: EndOfServiceAnnouncement
+    url: https://news.ycombinator.com/item?id=39817493
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/defer
+  - type: Twitter
+    url: https://x.com/defer_run
+  - type: IntroductionBlogPost
+    url: https://dev.to/defer/introducing-defer-a-zero-infrastructure-background-jobs-nodejs-platform-43jb
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
